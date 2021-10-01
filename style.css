@@ -1,0 +1,83 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(80, 137, 198);
+  font-size: 20px ;
+  line-height: 30px ;
+  background-color: rgb(80, 137, 198);
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 40px ;
+  line-height: 40px ;
+  background-color: rgb(243, 179, 40);
+  border: 3px solid rgb(240, 165, 0);
+}
+
+h3, h2{
+  font-family: 'Roboto', sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 20px ;
+  line-height: 20px ;
+  background-color: rgb(243, 179, 40);
+  border: 3px solid rgb(240, 165, 0);
+}
+
+
+.card {
+  background: white;
+  padding: 30px;
+  border: 1px;
+  margin-top: 10px;
+  border: 1px solid lightgrey;
+  width: 100%;
+}
+
+.container {
+  margin: 0px auto;
+  border-radius:1%;
+  width: 700px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.img-circle {
+  border: 1px;
+  border-radius:50%;
+  width: 150px;
+  height: 150px;
+  border: 2px solid rgb(243, 179, 40);
+}
+
+.btn {
+  background-color: rgb(243, 179, 40);
+  color: white;
+  padding: 15px 20px;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 20px ;
+  border: 3px solid rgb(240, 165, 0);
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.btn:hover {
+  background-color: rgb(80, 137, 198);
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  .container {
+    width: 350px;
+  }
+}
+
+.icon{
+  font-size: 50px;
+}
